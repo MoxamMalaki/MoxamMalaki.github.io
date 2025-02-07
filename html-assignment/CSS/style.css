@@ -18,3 +18,14 @@ ul.hobbies{
 .hobbies li:nth-child(odd){
     background-color: aqua;
 }
+ul.nav{
+    list-style-type: none;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+}
+li a:hover{
+    color: gray;
+}
