@@ -10,13 +10,13 @@ header,footer{
     color: black;
 }
 #malaki{
-    box-shadow: 0px 0px 2px 1px red;
+    box-shadow: 0px 0px 2px 1px rgb(95, 73, 73);
 }
 ul.hobbies{
     list-style: square;
 }
 .hobbies li:nth-child(odd){
-    background-color: aqua;
+    background-color: gray;
 }
 ul.nav{
     list-style-type: none;
