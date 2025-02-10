@@ -17,7 +17,7 @@ ul.hobbies{
     list-style: square;
 }
 .hobbies li:nth-child(odd){
-    background-color: gray;
+    background-color: rgb(250, 250, 91);
 }
 ul.nav{
     list-style-type: none;
