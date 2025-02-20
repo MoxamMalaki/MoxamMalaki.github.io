@@ -1,3 +1,25 @@
+.wrapper{
+    background-color: #a1f3e9;
+    width:900px;
+    margin: auto;
+}
+#starfish{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+nav ul{
+    padding: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
 body{
     background-color:#aad4cf;
 }
