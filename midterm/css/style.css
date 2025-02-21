@@ -1,8 +1,26 @@
+#widestar{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+
+.title{
+    position: absolute;
+    text-align: center;
+    color: white;
+    right: 45%;
+    top: 20%;
+}
+
 .wrapper{
     background-color: #a1f3e9;
     width:900px;
     margin: auto;
     
+
+
 .pad{
     padding-left: 10px;
 }
@@ -19,13 +37,20 @@
 nav ul{
     padding: 10px;
     text-align: center;
+
 }
 
 nav li{
     display: inline-block;
     font-size: 1.5rem;
-    margin: 10px;
+    margin: 0px 50px;
+
 }
+ul:nth-child(2){
+    color: wheat;
+
+}
+
 
 .facts{
     text-align: left;
