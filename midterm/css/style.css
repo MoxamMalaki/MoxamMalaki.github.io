@@ -4,13 +4,18 @@
     position: relative;
 }
 
-
+.about{
+    color: white;
+    font-size: 2rem;
+    margin: 5px;
+}
 
 .title{
     position: absolute;
     text-align: center;
+    font-size: 3rem;
     color: white;
-    right: 45%;
+    right: 42%;
     top: 20%;
 }
 
@@ -21,8 +26,9 @@
     
 
 
-.pad{
+.padding{
     padding-left: 10px;
+    line-height: 20px;
 }
 
 }
@@ -44,21 +50,18 @@ nav li{
     display: inline-block;
     font-size: 1.5rem;
     margin: 0px 50px;
-
 }
-ul:nth-child(2){
-    color: wheat;
-
-}
-
 
 .facts{
     text-align: left;
     list-style-position: inside;
-    padding: 0px;
-    margin: 0px
+    list-style: square;
+    padding-left: 20px;
+
 }
 
 body{
     background-color:#aad4cf;
+    font-family: 'Times New Roman', Times, serif;
+    fo
 }
