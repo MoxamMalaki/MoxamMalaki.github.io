@@ -5,9 +5,10 @@
 }
 
 .about{
-    color: white;
-    font-size: 2rem;
-    margin: 5px;
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .title{
@@ -20,7 +21,7 @@
 }
 
 .wrapper{
-    background-color: #a1f3e9;
+    background-color: beige;
     width:900px;
     margin: auto;
     
@@ -28,6 +29,7 @@
 
 .padding{
     padding-left: 10px;
+    padding-right: 10px;
     line-height: 20px;
 }
 
@@ -43,13 +45,21 @@
 nav ul{
     padding: 10px;
     text-align: center;
-
 }
 
 nav li{
     display: inline-block;
     font-size: 1.5rem;
-    margin: 0px 50px;
+    margin: 0px 40px;
+    padding: 10px;
+}
+
+.story{
+    border-left: black;
+    border-right: black;
+    border-style: groove;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 
 .facts{
@@ -57,11 +67,26 @@ nav li{
     list-style-position: inside;
     list-style: square;
     padding-left: 20px;
-
 }
+
+input{
+    width: 90%;
+}
+textarea{
+    width: 90%;
+}
+.label{
+    background-color: azure;
+    padding: 20px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: dashed;
+    }
 
 body{
     background-color:#aad4cf;
     font-family: 'Times New Roman', Times, serif;
-    fo
+}
+footer p{
+    text-align: right;
 }
