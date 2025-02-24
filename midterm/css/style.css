@@ -12,12 +12,12 @@
 }
 
 .title{
-    position: absolute;
-    text-align: center;
     font-size: 3rem;
     color: white;
-    right: 39%;
+    position: absolute;
+    font-size-adjust: none;
     top: 20%;
+    left: 42%;
 }
 
 .wrapper{
