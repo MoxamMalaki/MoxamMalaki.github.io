@@ -21,7 +21,7 @@
 }
 
 .wrapper{
-    background-color: beige;
+    background-color: #D4E9E7;
     width:900px;
     margin: auto;
     
@@ -69,19 +69,26 @@ nav li{
     padding-left: 20px;
 }
 
-input{
+
+.form input,textarea{
     width: 90%;
 }
-textarea{
-    width: 90%;
+.visit h3{
+    font-size: 1.2rem;
+    padding-bottom: 20px;
 }
+
+.button{
+    padding-top: 20px;
+}
+
 .label{
     background-color: azure;
     padding: 20px;
     border-radius: 30px;
-    border-width: 3px;
+    border-width: 2px;
     border-color: black;
-    border-style: dashed;
+    border-style: solid;
     }
 
 body{
@@ -90,4 +97,5 @@ body{
 }
 footer p{
     text-align: right;
+    padding: 20px;
 }
