@@ -12,10 +12,10 @@
 }
 
 .title{
+    /* makes the font hover over the text using absolute positioning */
     font-size: 3rem;
     color: white;
     position: absolute;
-    font-size-adjust: none;
     top: 20%;
     left: 42%;
 }
@@ -24,17 +24,16 @@
     background-color: #D4E9E7;
     width:900px;
     margin: auto;
-    
-
-
+}
 .padding{
+    /* adds padding around the main wrappper */
     padding-left: 10px;
     padding-right: 10px;
     line-height: 20px;
 }
 
-}
 #starfish{
+    /* positions the star fish in the top left making it hover over the text */
     width: 200px;
     height: 200px;
     float: left;
@@ -55,6 +54,7 @@ nav li{
 }
 
 .story{
+    /* adds border spacing out the nav bar */
     border-left: black;
     border-right: black;
     border-style: groove;
@@ -64,13 +64,12 @@ nav li{
 
 .facts{
     text-align: left;
-    list-style-position: inside;
     list-style: square;
     padding-left: 20px;
 }
 
-
 .form input,textarea{
+    /* makes both the textboxes wider */
     width: 90%;
 }
 .visit h3{
@@ -83,6 +82,7 @@ nav li{
 }
 
 .label{
+    /* wrapper for the labeling section */
     background-color: azure;
     padding: 20px;
     border-radius: 30px;
@@ -92,6 +92,7 @@ nav li{
     }
 
 body{
+    /* changes the font of the whole code*/
     background-color:#aad4cf;
     font-family: 'Times New Roman', Times, serif;
 }
