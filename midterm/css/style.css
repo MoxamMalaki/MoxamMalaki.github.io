@@ -30,6 +30,7 @@
     padding-left: 10px;
     padding-right: 10px;
     line-height: 20px;
+    position: relative;
 }
 
 #starfish{
@@ -69,9 +70,10 @@ nav li{
 }
 
 .form input,textarea{
-    /* makes both the textboxes wider */
+    /* makes both the textboxes wider*/
     width: 90%;
 }
+
 .visit h3{
     font-size: 1.2rem;
     padding-bottom: 20px;
@@ -85,7 +87,6 @@ nav li{
     /* wrapper for the labeling section */
     background-color: azure;
     padding: 20px;
-    border-radius: 30px;
     border-width: 2px;
     border-color: black;
     border-style: solid;
