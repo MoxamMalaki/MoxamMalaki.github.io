@@ -1,7 +1,21 @@
 #widestar{
     width: 100%;
     height: auto;
+}
+.stage{
     position: relative;
+    text-align: center;
+}
+
+.stage h1{
+    /* makes the font hover over the text using absolute positioning */
+    font-size: 3.5rem;
+    font-family: Verdana;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -30%);
 }
 
 .about{
@@ -9,15 +23,6 @@
     font-size: 1.5rem;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.title{
-    /* makes the font hover over the text using absolute positioning */
-    font-size: 3rem;
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 42%;
 }
 
 .wrapper{
@@ -43,7 +48,7 @@
 }
 
 nav ul{
-    padding: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -71,7 +76,7 @@ nav li{
 
 .form input,textarea{
     /* makes both the textboxes wider*/
-    width: 90%;
+    width: 95%;
 }
 
 .visit h3{
@@ -85,7 +90,7 @@ nav li{
 
 .label{
     /* wrapper for the labeling section */
-    background-color: azure;
+    background-color: #D4E9E7;
     padding: 20px;
     border-width: 2px;
     border-color: black;
@@ -99,5 +104,5 @@ body{
 }
 footer p{
     text-align: right;
-    padding: 20px;
+    padding: 30px 20px 30px 20px;
 }
