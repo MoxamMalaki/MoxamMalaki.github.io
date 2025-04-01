@@ -37,16 +37,18 @@
     <button> Connect with us</button>
 </section>
 
-<section id="about">
-    <img src="img/about-us.jpg" alt="about-us">
-    <h2>about</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos porro officiis ducimus, ad voluptas odit saepe quae nisi illum inventore eius repudiandae, perferendis neque, temporibus maxime iusto tempore quasi.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ut qui assumenda ab magnam vitae amet enim facere numquam incidunt quidem molestias, nesciunt, esse dolor nisi laborum, deleniti consectetur. Corporis.</p>
+<section class="information">
+    <article class="about">
+        <img src="img/about-us.jpg" alt="about-us">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos porro officiis ducimus, ad voluptas odit saepe quae nisi illum inventore eius repudiandae, perferendis neque, temporibus maxime iusto tempore quasi.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ut qui assumenda ab magnam vitae amet enim facere numquam incidunt quidem molestias, nesciunt, esse dolor nisi laborum, deleniti consectetur. Corporis.</p>
+    </article>
 </section>
 
 <!-- broken up into articles to sort it with grid -->
 <section id="services">
-    <h1>Our Services</h1>
+    <h1 class="align">Our Services</h1>
     <article class="information">
         <img src="img/digital.jpg" alt="digital-services">
         <h3>Digital Transfotmation</h3>
@@ -84,7 +86,7 @@
 
     <article class="information">
         <img src="img/vision.jpg" alt="the-vision">
-        <h3>Our Vision</h3>
+        <h3 >Our Vision</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi maxime voluptatem, hic officiis qui culpa veniam aliquid. Porro laborum voluptatem dolorem perspiciatis natus tempore unde soluta, delectus voluptas ullam.</p>
         <button>Learn More</button>
     </article>
@@ -92,7 +94,7 @@
 
 <!-- possable need to change when medias are added -->
 <section id="team">
-<h1>Our Team</h1>
+<h1 class="align">Our Team</h1>
     <article class="information-team">
         <img src="img/john.jpg" alt="john-doe">
         <h3>John Doe</h3>
@@ -129,10 +131,10 @@
 </section>
 </div>
 
-<section id="hours">
+<section id="hours title">
     <!-- table with closing and opening times -->
-    <h1>Hours of operation</h1>
-    <table>
+    <h1 class="align">Hours of operation</h1>
+    <table id="hours">
         <tr>
             <th>Days</th>
             <th>Hours</th>
@@ -148,7 +150,7 @@
     </table>
 </section>
 
-<section>
+<section id="location">
     <h1>Location</h1>
     <!-- displys a map of algoquin collage -->
     <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
@@ -158,11 +160,13 @@
     </div>
 </section>
 
+<section id="foot">
 <footer>
 <p>&copy; Copyright Three Star media, 2020</p>
 <!-- underline unsplash -->
 <p>All images are taken form Unsplash</p>
 </footer>
+</section>
 
 </body>
 </html>
