@@ -1,0 +1,125 @@
+.information {
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat(4, auto) ;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: #FFE6AC;
+    border: 1px solid gray;
+    margin: 20px auto;
+}
+
+h1 {
+    margin: auto;
+}
+
+.information img {
+    width: 100%;
+    height: auto;
+}
+
+.information h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.information p{
+    font-size: 16px;
+    color: black;
+    padding-left: 10px;
+}
+
+.information button {
+    background-color: black;
+    color: white;
+    padding: 30px 60px;
+    margin: 10px;
+    grid-row: 4 / 5;
+    justify-self: start;
+
+}
+
+.information-team {
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat(4, auto) ;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: #FFE6AC;
+    border: 1px solid gray;
+    margin: 20px auto;
+}
+
+.information-team h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.information-team h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.information-team img {
+    width: 100%;
+    height: auto;
+}
+
+.information-team p{
+    font-size: 24px;
+    color: black;
+    border-top: 3px solid #D39E29;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.information-contact {
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat(4, auto) ;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    /* background-color:#FFE6AC; */
+    /* border: 1px solid gray; */
+    margin: 20px auto;
+}
+
+#contact {
+    max-width: 800;
+    padding: 20px;
+}
+
+#contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#contact h2{
+    font-size: 24;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+
+}
+#contact button{
+background-color: black;
+color: white;
+padding: 10px 60px;
+grid-row: 4 / 5;
+justify-self: start;
+}
+
