@@ -9,19 +9,21 @@
 </head>
 <body>
     <section class="navi">
-    <header class="home">
         <nav>
+    <header class="home">
             <img src="img/logo.png" alt="logo">
             <ul>
+                <!-- put the home in a different ul due to css  -->
                 <li><a href="home">Home</a></li>
-            <ul>
+            </ul>
     </header>
             <ul>
-                <li><a href="about us">About Us</a></li>
+                <li><a href="about-us">About Us</a></li>
                 <li><a href="Services">Services</a></li>
                 <li><a href="team">Team</a></li>
                 <li><a href="contact">Contact</a></li>
             </ul>
+            <!-- search bar -->
             <div class="sbar">
                 <input type="text" placeholder="Search...">
             </div>
@@ -42,6 +44,7 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae ut qui assumenda ab magnam vitae amet enim facere numquam incidunt quidem molestias, nesciunt, esse dolor nisi laborum, deleniti consectetur. Corporis.</p>
 </section>
 
+<!-- broken up into articles to sort it with grid -->
 <section id="services">
     <h1>Our Services</h1>
     <article class="information">
@@ -87,6 +90,7 @@
     </article>
 </section>
 
+<!-- possable need to change when medias are added -->
 <section id="team">
 <h1>Our Team</h1>
     <article class="information-team">
@@ -109,6 +113,7 @@
 <section id="contact">
     <h1>Contact Us</h1>
     <h2>Send us a message</h2>
+    <!-- contact form  -->
     <form>
         <label for="fname"> Full Name</label><br>
         <input id="fname" name="yourname" type="text"><br><br>
@@ -125,6 +130,7 @@
 </div>
 
 <section id="hours">
+    <!-- table with closing and opening times -->
     <h1>Hours of operation</h1>
     <table>
         <tr>
@@ -144,12 +150,12 @@
 
 <section>
     <h1>Location</h1>
-    
-<div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;">
+    <!-- displys a map of algoquin collage -->
     <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
-        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=algonquin&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-        </iframe></div><a class="from-embedmap-code" rel="nofollow" href="https://kbj9qpmy.com/hrn" id="grab-map-data">Hosting Right Now</a></div>
-
+        <iframe 
+        src="https://www.google.com/maps/embed/v1/place?q=algonquin&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+        </iframe>
+    </div>
 </section>
 
 <footer>
