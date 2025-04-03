@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Assignment</title>
-    <link href="css/main.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <section class="navi">
@@ -30,9 +30,11 @@
 
 <section id="welcome">
     <img src="img/main-banner.jpg" alt="banner">
-    <h1>Welcome to Three Star Media</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos porro officiis ducimus, ad voluptas odit saepe quae nisi illum inventore eius repudiandae, perferendis neque, temporibus maxime iusto tempore quasi.</p>
-    <button> Connect with us</button>
+        <article class="black">
+            <h1 class="hd1">Welcome to Three Star Media</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos eos porro officiis ducimus, ad voluptas odit saepe quae nisi illum inventore eius repudiandae, perferendis neque, temporibus maxime iusto tempore quasi.</p>
+           <button> Connect with us</button>
+        </article>
 </section>
 
 <section class="information">
@@ -81,11 +83,13 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi maxime voluptatem, hic officiis qui culpa veniam aliquid. Porro laborum voluptatem dolorem perspiciatis natus tempore unde soluta, delectus voluptas ullam.</p>
         <button>Print Plans</button>
     </article>
+</section>
 
-    <article class="information">
+<section>
+    <article class="vision">
         <img src="img/vision.jpg" alt="the-vision">
         <h3 >Our Vision</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi maxime voluptatem, hic officiis qui culpa veniam aliquid. Porro laborum voluptatem dolorem perspiciatis natus tempore unde soluta, delectus voluptas ullam.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi maxime voluptatem, hic officiis qui culpa veniam aliquid. Porro laborum voluptatem dolorem perspiciatis natus tempore unde soluta, delectus voluptas ullam.</p>
         <button>Learn More</button>
     </article>
 </section>
@@ -95,17 +99,19 @@
 <h1 class="align">Our Team</h1>
     <article class="information-team">
         <img src="img/john.jpg" alt="john-doe">
+    <div>
         <h3>John Doe</h3>
         <h4>CEO and Co-owner</h4>
-        <!-- <hr>     -->
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe porro reprehenderit dolorum, optio suscipit quae velit reiciendis doloribus nisi deserunt quo sint non unde, atque aperiam debitis? Aut, quaerat!</p>
+    </div>    
     </article>
     <article class="information-team">
-        <img src="img/bob.jpg" alt="bob-rite">
-        <h3>Bob Rite</h3>
-        <h4>CFO and Co-owner</h4>
-        <!-- <hr> -->
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis et minima aut dolorum cumque aliquam nulla magni aperiam praesentium, quisquam a voluptas, sapiente quia ducimus cum. Voluptates alias vel doloremque.</p>
+        <div>
+         <img src="img/bob.jpg" alt="bob-rite">
+         <h3>Bob Rite</h3>
+         <h4>CFO and Co-owner</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis et minima aut dolorum cumque aliquam nulla magni aperiam praesentium, quisquam a voluptas, sapiente quia ducimus cum. Voluptates alias vel doloremque.</p>
+        </div>
     </article>
 </section>
 
@@ -149,7 +155,7 @@
 </section>
 
 <section id="location">
-    <h1>Location</h1>
+    <h1 class="align">Location</h1>
     <!-- displys a map of algoquin collage -->
     <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
         <iframe 
