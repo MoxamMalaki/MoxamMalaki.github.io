@@ -9,6 +9,26 @@
     margin: 20px auto;
 }
 
+/* General styles for the website */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+
 .align {
     width: 800px;
     margin: auto;

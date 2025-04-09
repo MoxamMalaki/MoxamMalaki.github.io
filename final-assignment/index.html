@@ -49,6 +49,7 @@
 <!-- broken up into articles to sort it with grid -->
 <section id="services">
     <h1 class="align">Our Services</h1>
+<div class="services-grid">
     <article class="information">
         <img src="img/digital.jpg" alt="digital-services">
         <h3>Digital Transfotmation</h3>
@@ -83,6 +84,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi maxime voluptatem, hic officiis qui culpa veniam aliquid. Porro laborum voluptatem dolorem perspiciatis natus tempore unde soluta, delectus voluptas ullam.</p>
         <button>Print Plans</button>
     </article>
+</div>
 </section>
 
 <section>
@@ -99,15 +101,13 @@
 <h1 class="align">Our Team</h1>
     <article class="information-team">
         <img src="img/john.jpg" alt="john-doe">
-    <div>
+    <div class="textbox">
         <h3>John Doe</h3>
         <h4>CEO and Co-owner</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe porro reprehenderit dolorum, optio suscipit quae velit reiciendis doloribus nisi deserunt quo sint non unde, atque aperiam debitis? Aut, quaerat!</p>
     </div>    
-    </article>
-    <article class="information-team">
-        <div>
          <img src="img/bob.jpg" alt="bob-rite">
+        <div class="textbox">
          <h3>Bob Rite</h3>
          <h4>CFO and Co-owner</h4>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis et minima aut dolorum cumque aliquam nulla magni aperiam praesentium, quisquam a voluptas, sapiente quia ducimus cum. Voluptates alias vel doloremque.</p>
@@ -115,7 +115,7 @@
     </article>
 </section>
 
-
+<div class="info-grid">
 <section class="information-contact">
     <article id="contact">
         <h1>Contact Us</h1>
@@ -136,8 +136,18 @@
     </article>
 </section>
 
-<section id="contact">
-    <article id="hours title">
+    <article id="location">
+        <h1 class="align">Location</h1>
+        <!-- displys a map of algoquin collage -->
+        <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
+            <iframe 
+                src="https://www.google.com/maps/embed/v1/place?q=algonquin&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+            </iframe>
+        </div>
+    </article>
+</div>
+
+<article id="hours title">
     <!-- table with closing and opening times -->
     <h1 class="align">Hours of operation</h1>
         <table id="hours">
@@ -155,18 +165,6 @@
             </tr>
         </table>
     </article>
-
-    <article id="location">
-        <h1 class="align">Location</h1>
-        <!-- displys a map of algoquin collage -->
-        <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
-            <iframe 
-                src="https://www.google.com/maps/embed/v1/place?q=algonquin&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-            </iframe>
-        </div>
-    </article>
-</section>
-
 
 
 <section id="foot">
