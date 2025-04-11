@@ -81,6 +81,39 @@ nav ul li a {
     display: block;
 }
 
+/* Special styling for home link/ search bar */
+nav ul li.ihome {
+    background-color: #c08c00;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li.ihome a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.sbar {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.sbar input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+}
+
+.sbar button {
+    background-color: #c08c00;
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+}
+
 .about {
     width: 750px;
     display: grid;
@@ -90,6 +123,74 @@ nav ul li a {
     background-color: #FFE6AC;
     margin: 20px auto;
 }
+
+/* Welcome section styling */
+#welcome {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  
+    .hd1 {
+    font-size: 6rem;
+  }
+  #welcome img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+  
+  #welcome .black {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    /* Semi-transparent overlay */
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  #welcome p {
+    font-size: 1.3rem;
+    width: 750px;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  #welcome button {
+    background-color: #e6a800; /* Gold/yellow color as seen in the image */
+    color: #222;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    max-width: 250px;
+  }
+  
+  #welcome button::after {
+    /* add icon to content */
+    content: "...";
+    margin-left: 10px;
+    font-size: 0.8em;
+  }
+
+.align {
+    font-size: 3rem;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+
 
 .about img{
     width: 100%;
