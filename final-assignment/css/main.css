@@ -191,6 +191,17 @@ nav ul li.ihome a {
     text-align: left;
 }
 
+/* about section styling */
+
+.about {
+    width: 95%;
+    display: grid;
+    grid-template-rows: repeat(4, auto) ;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: #FFE6AC;
+    margin: 20px auto;
+}
 
 .about img{
     width: 100%;
@@ -226,6 +237,7 @@ h2 {
     margin: 10px;
     grid-row: 4 / 5;
     justify-self: start;
+    cursor: pointer;
 
 }
 
